@@ -31,8 +31,6 @@ def kesha_maker(array)
   end   
 end 
 
-binding.pry
-
 def find_a(array)
   array.select do |word|
     word[0] == "a"
