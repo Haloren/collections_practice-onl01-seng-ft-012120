@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort 
 end 
@@ -28,6 +30,8 @@ def kesha_maker(array)
     letter[2] = "$"
   end   
 end 
+
+
 
 def find_a(array)
   array.select do |word|
