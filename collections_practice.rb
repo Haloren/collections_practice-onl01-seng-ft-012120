@@ -38,7 +38,6 @@ end
 def sum_array(array)
     sum = 0 
     array.inject(:+)  #ex: [1,2,3].inject {|a,b| a+b}
-  end 
 end  
 
 def add_s(array)
